@@ -1,4 +1,4 @@
-# PALM_public
+# PALM: Platoons Based Adaptive Traffic Light Control System for Mixed Vehicular Traffic
 Code for [paper "PALM: Platoons Based Adaptive Traffic Light Control System for Mixed Vehicular Traffic"](https://dayuantan.github.io/AboutMe/researches.html).
 
 Welcome to cite our paper! Your citation is the best encourage for young scholar like us.
