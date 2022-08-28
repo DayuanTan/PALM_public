@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="netfiles/ATL/dayuan.grid.3.updatedByHand.ATL.net.xml"/>
+        <!-- change for simpla
+        <route-files value="netfiles/dayuan.grid.2.vTypeDist.rou.alt.xml"/>
+        -->
+        <!-- not need anymore since randomTrips.py generate it into rou.xml file.
+        <additional-files value="netfiles/dayuan.grid.me.add.vTypeDist.xml"/>-->
+
+        <!--simpla-->
+        <route-files value="netfiles/route_with_platoon/dayuan.grid.4.simpla.duarouter.rou.alt.xml"/>
+        <additional-files value="netfiles/route_with_platoon/dayuan.grid.4.simpla.duarouterModifiedByHand.vType.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="4000"/>
+    </time>
+
+    <gui_only>
+        <gui-settings-file value="sumo_view_cfg/dayuan.view.settings.xml"/>
+    </gui_only>
+
+</configuration>
