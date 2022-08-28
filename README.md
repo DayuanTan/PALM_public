@@ -44,4 +44,7 @@ To see the code, please read this [Readme](code/ReadMe.md).
 
 I'd love to answer any questions. Feel free to post an issue to email me. 
 
+## Our other open source research
+
+https://dayuantan.github.io/AboutMe/researches.html
 
