@@ -1,0 +1,20 @@
+<additional>
+
+
+    <!-- My distribution of vehicle types -->
+    <vTypeDistribution id="typedist1" > 
+        <!--My definition of vehicle types-->
+        <vType id="myvTypeCar_platoon" maxSpeed="35" vClass="passenger" length="4.5" guiShape="passenger" probability="0.4" color="yellow"/><!--normal cars,green-->
+        <!--speed unit is m/s-->
+        <vType id="myvTypeBus_platoon" maxSpeed="30" vClass="bus" length="14.63" guiShape="bus" probability="0.05" color="yellow"/>
+        <vType id="myvTypeTaxi_platoon" maxSpeed="35" vClass="taxi" length="4.5" guiShape="passenger" probability="0.045" color="0,0,255"/><!--blue, skyblue-->
+   
+        <vType id="myvTypeCar_human_nojoinP" maxSpeed="35" vClass="passenger" length="4.5" guiShape="passenger" probability="0.4" color="128,0,128"/><!--normal cars,purple-->
+        <vType id="myvTypeBus_human_nojoinP" maxSpeed="30" vClass="bus" length="14.63" guiShape="bus" probability="0.05" color="128,0,128"/>
+        <vType id="myvTypeTaxi_human_nojoinP" maxSpeed="35" vClass="taxi" length="4.5" guiShape="passenger" probability="0.045" color="255,192,203"/><!--pink-->
+        <vType id="myvTypeEmergency_human_nojoinP" maxSpeed="35" vClass="emergency" length="4.5" guiShape="emergency" probability="0.01" color="255,0,0"/><!--red-->
+   
+    </vTypeDistribution>  
+
+
+</additional>

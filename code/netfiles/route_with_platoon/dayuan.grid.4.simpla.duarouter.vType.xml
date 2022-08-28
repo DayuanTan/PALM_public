@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sat Apr 17 20:04:57 2021 by Eclipse SUMO duarouter Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="dayuan.grid.1.net.xml"/>
+        <additional-files value="dayuan.grid.me.add.HV.AH.vTypeDist.xml"/>
+        <route-files value="dayuan.grid.2.vTypeDist.simpla.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="route_with_platoon/dayuan.grid.4.simpla.duarouter.rou.xml"/>
+        <vtype-output value="route_with_platoon/dayuan.grid.4.simpla.duarouter.vType.xml"/>
+        <alternatives-output value="route_with_platoon/dayuan.grid.4.simpla.duarouter.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="myvTypeCar_human_nojoinP" length="4.50" maxSpeed="35.00" probability="0.40" vClass="passenger" guiShape="passenger" color="128,0,128"/>
+    <vType id="myvTypeCar_platoon" length="4.50" maxSpeed="35.00" probability="0.40" vClass="passenger" guiShape="passenger" color="yellow"/>
+    <vType id="myvTypeTaxi_platoon" length="4.50" maxSpeed="35.00" probability="0.04" vClass="taxi" guiShape="passenger" color="blue"/>
+    <vType id="myvTypeBus_human_nojoinP" length="14.63" maxSpeed="30.00" probability="0.05" vClass="bus" guiShape="bus" color="128,0,128"/>
+    <vType id="myvTypeTaxi_human_nojoinP" length="4.50" maxSpeed="35.00" probability="0.04" vClass="taxi" guiShape="passenger" color="255,192,203"/>
+    <vType id="myvTypeBus_platoon" length="14.63" maxSpeed="30.00" probability="0.05" vClass="bus" guiShape="bus" color="yellow"/>
+    <vType id="myvTypeEmergency_human_nojoinP" length="4.50" maxSpeed="35.00" probability="0.01" vClass="emergency" guiShape="emergency" color="red"/>
+</routes>
